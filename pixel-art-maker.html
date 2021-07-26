@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel-art-maker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="Script.js"></script>
+</head>
+
+<body onload="starting()">
+<h1>Pixel Art Maker</h1>
+<div id="workspace" class="workspace">
+    <div id="grid" class="grid">
+        <script src="Script.js"></script>
+    </div>
+</div>
+
+<div class="workspace">
+    <div id="pallet" class="pallet">
+        <div id="red" class="color red"></div>
+        <div id="orange" class="color orange"></div>
+        <div id="yellow" class="color yellow"></div>
+        <div id="green" class="color green"></div>
+        <div id="cyan" class="color cyan"></div>
+        <div id="blue" class="color blue"></div>
+        <div id="magenta" class="color magenta"></div>
+        <div id="black" class="color black"></div>
+        <div id="white" class="color white"></div>
+
+        <div id="curColor" class="color curr"> </div>
+    </div>
+    <div id="size" class="size">
+        <input type="button" value="Reset?" onclick="resetGrid()"> <br>
+        <label for="height">H: </label>
+        <input type="text" id="height" name="height" size="2" value="34"> <br>
+        <label for="width">W: </label>
+        <input type="text" id="width" name="width" size="2" value="90"> <br>
+        <input type="button" value="Size" onclick="resizeGrid()">
+    </div>
+</div>
+
+</body>
+
+</html>
