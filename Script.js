@@ -4,7 +4,7 @@
 let curColor = "black";
 const numColors = 9;
 let height = 34;
-let width = 90;
+let width = 50;
 let pixels = null;
 
 // Deletes an element
